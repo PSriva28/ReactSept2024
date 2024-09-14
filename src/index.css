@@ -1,0 +1,19 @@
+body {
+background-color: rgb(240, 215, 219);
+padding: 0%;
+margin: 0%;
+}
+div{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+}
+h1 {
+  padding: 20px 20px;
+  background-color: rgb(243, 235, 142);
+  color: rgb(67, 0, 36);
+  border-radius: 20px;
+}

@@ -1,0 +1,31 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+//ReactDOM.render(<div><h1>Sunflower</h1> <p1>is a flower, which is in yellow color also called "surajmookhi".</p1></div>, document.getElementById("root"))
+ReactDOM.render(<React.Fragment>
+                <h1>Netflix pick</h1>
+                <p1>List of top 5 netflix picks:-</p1>
+                <ol>
+                  <li>Stranger Things</li>
+                  <li>Peaky Blinders</li>
+                  <li>Dark</li>
+                  <li>Never Have I Ever</li>
+                  <li>Squid Game</li>
+                </ol>
+                </React.Fragment>, document.getElementById("root"))
+
+//2nd Challenge:-
+const date= new Date().toLocaleDateString();
+const time= new Date().toLocaleTimeString();
+ReactDOM.render(<>
+                <h1>Hello, my name is {name}.</h1>,
+                <p>Today's date is {date}.</p>
+                <p>Today's time is {time}.</p>
+                </>, document.getElementById("root"))
+
+//3rd Challenge
+create a page which displays greeting according to the time.
+If it is 7am then morning like that, different greeting should have different colors.
+
+//import and Export modules
+
+                
